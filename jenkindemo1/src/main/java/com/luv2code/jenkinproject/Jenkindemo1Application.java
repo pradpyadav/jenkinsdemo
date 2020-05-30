@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Jenkindemo1Application {
 	
 	int num1,num2;
-	public void SayHello(String name) {
+	public static void SayHello(String name) {
 		System.out.println("Hello  There : "+name);
 	}
 
