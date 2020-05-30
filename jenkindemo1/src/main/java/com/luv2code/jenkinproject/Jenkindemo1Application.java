@@ -5,6 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class Jenkindemo1Application {
+	
+	int num1,num2;
+	public void SayHello(String name) {
+		System.out.println("Hello  There : "+name);
+	}
 
 	public static void main(String[] args) {
 		System.out.println("Welcome to the world of the  Jenkins DevOps");
